@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 		   'everyone life easier.'
   s.source_files = 'Code/*.{h,m}'
   s.resources    = 'Assets/*.png'
-  s.dependency 'ShareThis', '1.0.0'
+  #s.dependency 'ShareThis', '1.0.0'
   s.frameworks    = 'AudioToolbox', 'CoreMedia', 'AVFoundation', 'MediaPlayer'
   s.requires_arc = true
 end
